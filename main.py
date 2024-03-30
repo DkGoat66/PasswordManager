@@ -79,4 +79,14 @@ def save():
             # Clear the input fields
             website_blank.delete(0, END)
             Password_blank.delete(0, END)
+# ---------------------------- UI SETUP ------------------------------- #
+# Setup the GUI for the application
+window = Tk()
+window.title("Password Manager")
+window.config(padx=50, pady=50)
 
+# Add and position the canvas and logo
+canvas = Canvas(width=200, height=200, highlightthickness=0)
+logo_img = PhotoImage(file="logo.png")
+canvas.create_image(100, 100, image=logo_img)
+canvas.grid(row=0, column=1)
