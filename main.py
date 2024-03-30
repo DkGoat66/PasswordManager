@@ -90,3 +90,22 @@ canvas = Canvas(width=200, height=200, highlightthickness=0)
 logo_img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo_img)
 canvas.grid(row=0, column=1)
+
+# Define and place the labels and entry fields for the website, email/username, and password
+website = Label(text="Website:")
+website.grid(row=1, column=0)
+Email_UserName = Label(text="Email/Username:")
+Email_UserName.grid(row=2, column=0)
+Password = Label(text="Password")
+Password.grid(row=3, column=0)
+
+website_blank = Entry(width=21)
+website_blank.grid(row=1, column=1)
+website_blank.focus()
+Email_UserNameBlank = Entry(width=35)
+Email_UserNameBlank.grid(row=
+
+
+
+
+
