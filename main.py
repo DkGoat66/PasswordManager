@@ -43,4 +43,40 @@ def generate_password():
     # Display the password and copy it to the clipboard
     Password_blank.insert(0, password)
     pyperclip.copy(password)
+    # ---------------------------- SAVE PASSWORD FUNCTION ------------------------------- #
+# Function to save the website, email, and password details to a file
+def save():
+    website = website_blank.get()
+    email = Email_UserNameBlank.get()
+    password = Password_blank.get()
+    new_data = {
+        website: {
+            "email": email,
+            "password": password,
+        }
+    }
+
+    # Ensure no fields are empty
+    if len(website) == 0 or len(password) == 0:
+        messagebox.showinfo(title="Oops", message="Please make sure you haven't left any field empty.")
+    else:
+        try:
+            with open("data.json", "r") as data_file:
+                # Reading the old data
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                # Create a new file if it doesn't exist
+                json.dump(new_data, data_file, indent=4)
+        else:
+            # Update old data with new data
+            data.update(new_data)
+
+            with open("data.json", "w") as data_file:
+                # Save updated data
+                json.dump(data, data_file, indent=4)
+        finally:
+            # Clear the input fields
+            website_blank.delete(0, END)
+            Password_blank.delete(0, END)
 
