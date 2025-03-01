@@ -1,10 +1,10 @@
-Password Manager
+# Password Manager
 
-Overview
+## Overview
 
 The Password Manager is a Python-based application that securely stores, generates, and retrieves passwords for various websites. It features a graphical user interface (GUI) built using Tkinter and stores credentials in a JSON file. The application includes functionality to search for saved passwords, generate strong random passwords, and securely store login credentials.
 
-Features
+## Features
 
 Password Search: Retrieve stored credentials for a given website.
 
