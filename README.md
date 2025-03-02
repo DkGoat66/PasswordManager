@@ -8,10 +8,10 @@ The Password Manager is a Python-based application that securely stores, generat
 
 **Password Search**: Retrieve stored credentials for a given website.
 
-Password Generator: Generate secure passwords with letters, numbers, and symbols.
+**Password Generator**: Generate secure passwords with letters, numbers, and symbols.
 
-Save Credentials: Store website, email/username, and password details in a JSON file.
+**Save Credentials**: Store website, email/username, and password details in a JSON file.
 
-Clipboard Copy: Automatically copy generated passwords to the clipboard.
+**Clipboard Copy**: Automatically copy generated passwords to the clipboard.
 
-User-friendly Interface: Simple GUI for easy interaction.
+**User-friendly Interface**: Simple GUI for easy interaction.
