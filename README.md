@@ -15,3 +15,17 @@ The Password Manager is a Python-based application that securely stores, generat
 **Clipboard Copy**: Automatically copy generated passwords to the clipboard.
 
 **User-friendly Interface**: Simple GUI for easy interaction.
+
+Installation
+
+Prerequisites
+
+Ensure you have Python installed on your system. You can download it from Python's official website.
+
+Required Libraries
+
+Install the required dependencies by running:
+
+pip install pyperclip
+
+
