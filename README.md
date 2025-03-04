@@ -16,13 +16,13 @@ The Password Manager is a Python-based application that securely stores, generat
 
 **User-friendly Interface**: Simple GUI for easy interaction.
 
-Installation
+## Installation
 
-Prerequisites
+### Prerequisites
 
 Ensure you have Python installed on your system. You can download it from Python's official website.
 
-Required Libraries
+### Required Libraries
 
 Install the required dependencies by running:
 
