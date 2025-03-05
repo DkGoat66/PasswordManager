@@ -26,6 +26,13 @@ Ensure you have Python installed on your system. You can download it from Python
 
 Install the required dependencies by running:
 
-pip install pyperclip
+`pip install pyperclip`
+
+## Usage
+
+Run the application:
+
+`python password_manager.py`
+
 
 
