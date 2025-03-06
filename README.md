@@ -34,5 +34,20 @@ Run the application:
 
 `python password_manager.py`
 
+To save a password:
+
+Enter the website name.
+
+Enter the email/username.
+
+Click on "Generate Password" (or enter your password).
+
+Click "Add" to save the credentials.
+
+To search for a password:
+
+Enter the website name in the search field.
+
+Click "Search" to retrieve stored credentials.
 
 
