@@ -46,4 +46,11 @@ Install the required dependencies by running:
 - Enter the website name in the search field.
 - Click "Search" to retrieve stored credentials.
 
+File Structure
+
+password_manager.py - The main script that runs the application.
+
+data.json - Stores saved credentials in JSON format.
+
+logo.png - Application logo used in the UI.
 
