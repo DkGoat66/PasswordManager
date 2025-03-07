@@ -52,3 +52,14 @@ Install the required dependencies by running:
 - `data.json` - Stores saved credentials in JSON format.
 - `logo.png` - Application logo used in the UI.
 
+## JSON Data Structure
+
+The credentials are stored in a JSON file in the following format:
+```
+{
+    "example.com": {
+        "email": "user@example.com",
+        "password": "securepassword123"
+    }
+}
+```
