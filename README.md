@@ -63,3 +63,11 @@ The credentials are stored in a JSON file in the following format:
     }
 }
 ```
+## Future Enhancements
+
+Implement password encryption.
+
+Add a master password feature for additional security.
+
+Integrate cloud storage for remote password access.
+
